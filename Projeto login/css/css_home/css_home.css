@@ -7,6 +7,9 @@ body {
   background-color: #041122;
 }
 
+<<<<<<< HEAD:Projeto login/css/css_principal/css_principal.css
+.links {
+=======
 header{
   border: solid white;
   box-sizing: border-box; /* define a largura do elemento como a soma do conteúdo, padding e borda */
@@ -14,13 +17,14 @@ header{
   text-align: left;
 }
 .links{
+>>>>>>> main:Projeto login/css/css_home/css_home.css
   position: fixed; /*Fixa a posição*/
 
   top: 0; /*top e right posicionam na parte superior*/
   right: 0;
 
   display: flex; /*container flexivel OBS:  duvidas!*/
-   
+
   /*
   Agora que é um container flexível, pode-se utilizar a propriedade da flex box!
   Com isso posso usar o flex-direction para definir a direção dos links, que nesse caso é row, para deixar um do lado do outro.
@@ -28,20 +32,10 @@ header{
   flex-direction: row;
 
   /*Agora usamos o flex-start alinha os links na direita da linha.*/
-  justify-content: flex-start; 
-  
+  justify-content: flex-start;
+
   /*centraliza verticalmente os links na linha.*/
   align-items: flex-end;
-}
-
-p {
-  color: #ffffff;
-}
-
-h1 {
-  color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
 }
 
 a {
@@ -55,50 +49,26 @@ a {
   margin-top: 50px;
 }
 
-input {
-  border-radius: 30px;
-  background-color: #259073;
-  width: 250px;
-  height: 40px;
-}
-
 div {
   display: flex;
   flex-direction: row;
 }
 
-.lista_header{
+.lista_header {
   text-align: right;
-}
-.container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.element1 {
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  left: 0;
-  margin-left: 1vw;
-  margin-top: 100px;
-}
-
-.element2 {
-  float: right;
-  margin-left: 20vw;
-  width: 550px;
-  height: 550px;
-  border-radius: 50%;
-  margin-left: 10vw;
-  margin-top: -40px;
 }
 
 .logo {
   margin-left: 15px; /* Essa linha foi adicionada para com o intuito de remover os*/
+<<<<<<< HEAD:Projeto login/css/css_principal/css_principal.css
+  max-width: 7%;
+  height: auto;
+  margin-top: 0px;
+=======
   width: 100px;
   height: 100px;
   border-radius: 50%;
   margin-top: 10px;
   margin-bottom: 10px;
+>>>>>>> main:Projeto login/css/css_home/css_home.css
 }
