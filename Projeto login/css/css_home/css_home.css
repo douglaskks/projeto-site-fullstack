@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -7,20 +8,20 @@ body {
   background-color: #041122;
 }
 
-header{
+header {
   border: solid white;
   box-sizing: border-box; /* define a largura do elemento como a soma do conteúdo, padding e borda */
   width: 100%; /* define a largura do elemento como 100% */
   text-align: left;
 }
-.links{
+.links {
   position: fixed; /*Fixa a posição*/
 
   top: 0; /*top e right posicionam na parte superior*/
   right: 0;
 
   display: flex; /*container flexivel OBS:  duvidas!*/
-   
+
   /*
   Agora que é um container flexível, pode-se utilizar a propriedade da flex box!
   Com isso posso usar o flex-direction para definir a direção dos links, que nesse caso é row, para deixar um do lado do outro.
@@ -28,8 +29,8 @@ header{
   flex-direction: row;
 
   /*Agora usamos o flex-start alinha os links na direita da linha.*/
-  justify-content: flex-start; 
-  
+  justify-content: flex-start;
+
   /*centraliza verticalmente os links na linha.*/
   align-items: flex-end;
 }
@@ -67,7 +68,7 @@ div {
   flex-direction: row;
 }
 
-.lista_header{
+.lista_header {
   text-align: right;
 }
 .container {
@@ -96,9 +97,8 @@ div {
 
 .logo {
   margin-left: 15px; /* Essa linha foi adicionada para com o intuito de remover os*/
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+  width: 95px;
+  height: 95px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
