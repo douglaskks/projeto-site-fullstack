@@ -1,29 +1,40 @@
 body {
   background-color: #041122;
 }
-h1 {
+p {
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  display: block;
-  margin-bottom: 10px;
-  margin-left: 1vw;
 }
-
+h1 {
+  padding-left: 20px;
+  color: #ffffff;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: right;
+  float: right;
+  margin-right: 40px;
+  font-family: Arial;
+  font-size: 22;
+  margin-top: 50px;
+}
 input {
-  border-radius: 30px;
+  border-radius: 10px;
   background-color: #259073;
   width: 250px;
   height: 40px;
-  display: block;
 }
-div {
+
+.container_principal {
   display: flex;
-  flex-direction: row;
+}
+.forms {
+  background-color: #259073;
 }
 .container {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 .element1 {
@@ -31,23 +42,20 @@ div {
   top: 50%;
   transform: translate(0, -50%);
   left: 0;
-  margin-left: 1vw;
-  margin-top: 3vw;
-  display: flex;
-  flex-direction: column;
+  margin-left: 10vw;
 }
+
 .element2 {
+  float: right;
+  margin-left: 15vw;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
-  margin-left: 40vw;
-  background-color: #259073;
-  margin-top: -20vw;
-  overflow: hidden;
-  width: 500px;
-  height: 500px;
+  margin-top: -130px;
 }
-.imagem {
-  width: 100%;
-  height: auto;
-  display: block;
-  padding: 20%;
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
 }

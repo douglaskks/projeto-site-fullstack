@@ -1,8 +1,23 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #041122;
 }
 
+<<<<<<< HEAD:Projeto login/css/css_principal/css_principal.css
 .links {
+=======
+header{
+  border: solid white;
+  box-sizing: border-box; /* define a largura do elemento como a soma do conteúdo, padding e borda */
+  width: 100%; /* define a largura do elemento como 100% */
+  text-align: left;
+}
+.links{
+>>>>>>> main:Projeto login/css/css_home/css_home.css
   position: fixed; /*Fixa a posição*/
 
   top: 0; /*top e right posicionam na parte superior*/
@@ -45,7 +60,15 @@ div {
 
 .logo {
   margin-left: 15px; /* Essa linha foi adicionada para com o intuito de remover os*/
+<<<<<<< HEAD:Projeto login/css/css_principal/css_principal.css
   max-width: 7%;
   height: auto;
   margin-top: 0px;
+=======
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+>>>>>>> main:Projeto login/css/css_home/css_home.css
 }
